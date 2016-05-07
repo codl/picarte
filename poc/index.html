@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>picarto hls mse test</title>
+<style>
+video {
+    background: magenta;
+    max-height: 400px;
+}
+
+div.spinner {
+    background: grey;
+    width: 100px;
+    height: 100px;
+    animation: my-ass 1s ease-in-out alternate infinite;
+}
+
+@keyframes my-ass {
+    from { transform: rotate(-30deg); }
+    to { transform: rotate(30deg); }
+}
+</style>
+        <script src="../dist/hls.min.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="spinner"></div>
+    </body>
+</html>

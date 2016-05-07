@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Picarte",
+    "version": "0.0.0",
+    "content_scripts": [
+        {
+            "matches": ["https://picarto.tv/*"],
+            "js": ["inject.js"],
+            "css": ["hide_jw.css"]
+        }
+    ],
+    "web_accessible_resources": [
+        "picarte.js",
+        "dist/hls.js"
+    ]
+}
